@@ -1,18 +1,3 @@
-<!-- <div class="container">
-    <h2>Login</h2>
-    <form (ngSubmit)="login()">
-      <div class="form-group">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" [(ngModel)]="username" class="form-control" required >
-      </div>
-      <div class="form-group">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" [(ngModel)]="password" class="form-control" required>
-      </div>
-      <button type="submit" class="btn btn-primary">Login</button>
-    </form>
-  </div>
-   -->
    <header>
 	<nav id="navbar">
 	  <li id="name" aria-current="page" (click)="redirectTohome()"> Virinchi</li>
@@ -21,7 +6,7 @@
 		<li><a (click)="redirectTodepartments()">Departments</a></li>
 		<li><a>Hospital</a></li>
 		<li><a>Facility</a></li>
-		<li><a>Treatments</a></li>
+		<li><a (click)="redirectTocontactus()" >Contact Us</a></li>
 		<form class="d-flex ">
 			<input class="form-control me-2 ser" type="search" placeholder="Search" aria-label="Search">
 			<!-- <button class="btn btn-outline-lighter sera-btn " type="submit">Search</button> -->

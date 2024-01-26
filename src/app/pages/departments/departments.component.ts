@@ -25,6 +25,9 @@ export class DepartmentsComponent {
   redirectTodepartment(){
     this.router.navigate(['/Departments'])
   }
+  redirectTocontactus(){
+    this.router.navigate(['/contactus'])
+  }
 
 
   ngOnInit(): void {

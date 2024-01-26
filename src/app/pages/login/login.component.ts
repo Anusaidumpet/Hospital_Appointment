@@ -28,5 +28,8 @@ export class LoginComponent {
   redirectTodepartments(){
     this.router.navigate(['/departments'])
   }
+  redirectTocontactus(){
+    this.router.navigate(['/contactus'])
+  }
 
 }
