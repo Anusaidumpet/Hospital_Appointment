@@ -40,8 +40,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "20kb",
+                  "maximumError": "40kb"
                 }
               ],
               "outputHashing": "all"
@@ -88,6 +88,14 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/hospital-appointment",
+            "netlifyToken": "nfp_8ZgwCDfUqQ6CB6uuzXJqJYt8Q1g5UcZp729c",
+            "siteId": "anusaidumpeti9@gmail.com"
           }
         }
       }
