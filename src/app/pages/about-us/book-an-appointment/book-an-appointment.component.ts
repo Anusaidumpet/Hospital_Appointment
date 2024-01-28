@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { FormsModule} from '@angular/forms';
 import { Router } from '@angular/router';
 import { AppointmentListComponent } from '../../appointment-list/appointment-list.component';
+import { NavbarComponent } from '../../navbar/navbar.component';
 
 @Component({
   selector: 'app-book-an-appointment',
   standalone: true,
-  imports: [ FormsModule,AppointmentListComponent],
+  imports: [ FormsModule,AppointmentListComponent,NavbarComponent],
   templateUrl: './book-an-appointment.component.html',
   styleUrl: './book-an-appointment.component.css'
 })

@@ -1,0 +1,21 @@
+<header >
+    <nav id="navbar">
+      <li id="name" aria-current="page" (click)="redirectTohome()"> Virinchi</li>
+      <ul>
+        <li><a (click)="redirectTohome()">Home</a></li>
+        <li><a (click)="redirectTodepartments()">departments</a></li>
+        <li><a>Hospital</a></li>
+        <li><a>Facility</a></li>
+        <li><a (click)="redirectTocontactus()">Contact Us</a></li>
+        <!-- <li class="Label"><input type="search" id="SearchInput" placeholder="Search" />
+          <label for="SearchInput"></label>
+        </li> -->
+        <form class="d-flex mt-2">
+          <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        <button class="appointment" (click)="redirectTologin()">Log in</button>
+      </ul>
+    </nav>
+  </header>
+  <br>

@@ -6,6 +6,7 @@ import { SignupComponent } from './pages/signup/signup.component';
 import { BookAnAppointmentComponent } from './pages/about-us/book-an-appointment/book-an-appointment.component';
 import { DepartmentsComponent } from './pages/departments/departments.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { NavbarComponent } from './pages/navbar/navbar.component';
 
 export const routes: Routes = [
   { path:'', redirectTo: '', pathMatch: 'full' },
@@ -17,7 +18,8 @@ export const routes: Routes = [
   { path:'book-an-appointment',component:BookAnAppointmentComponent},
   { path:'appointment-list', component:AppointmentListComponent},
   { path:'contactus', component:ContactUsComponent},
-  { path:'departments', component:DepartmentsComponent}
+  { path:'departments', component:DepartmentsComponent},
+  { path:'navbar', component:NavbarComponent}
 ];
 
 

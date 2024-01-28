@@ -9,11 +9,12 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { BookAnAppointmentComponent } from './pages/about-us/book-an-appointment/book-an-appointment.component';
 import { OpenCloseComponent } from './open-close/open-close.component';
 import { DepartmentsComponent } from './pages/departments/departments.component';
+import { NavbarComponent } from './pages/navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterLinkActive,RouterLink,OpenCloseComponent,BookAnAppointmentComponent,CommonModule,RouterOutlet,AppointmentListComponent,LoginComponent,SignupComponent,DashboardComponent,DepartmentsComponent],
+  imports: [RouterLinkActive,RouterLink,OpenCloseComponent,BookAnAppointmentComponent,CommonModule,RouterOutlet,AppointmentListComponent,LoginComponent,SignupComponent,DashboardComponent,DepartmentsComponent,NavbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   

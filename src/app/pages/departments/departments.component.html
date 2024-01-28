@@ -1,25 +1,4 @@
-<header>
-    <nav id="navbar">
-      <p id="name" aria-current="page" (click)="redirectTohome()"> Virinchi</p>
-      <ul>
-        <li><a (click)="redirectTohome()">Home</a></li>
-        <li><a (click)="redirectTodepartment()">Departments</a></li>
-        <li><a>Hospital</a></li>
-        <li><a>Facility</a></li>
-        <li><a (click)="redirectTocontactus()" >Contact Us</a></li>
-        <form class="d-flex mt-2">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-light " type="submit">Search</button>
-          </form>
-        <!-- <li class="Label" >
-        <input type="search" id="SearchInput"  style="border-radius: 10px;" />
-        <label for="SearchInput"></label>
-        </li> -->
-        <li><button class="appointment" (click)="redirectTologin()">Log in</button>
-        </li>
-        </ul>
-    </nav>
-  </header>
+<app-navbar></app-navbar>
   <!-- *******nav end******* -->
   <section class="intro">
     <div class="intro-container">

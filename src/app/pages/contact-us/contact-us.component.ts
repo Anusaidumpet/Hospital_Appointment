@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { AppointmentListComponent } from '../appointment-list/appointment-list.component';
+import { NavbarComponent } from '../navbar/navbar.component';
 
 @Component({
   selector: 'app-contact-us',
   standalone: true,
-  imports: [],
+  imports: [NavbarComponent],
   templateUrl: './contact-us.component.html',
   styleUrl: './contact-us.component.css'
 })

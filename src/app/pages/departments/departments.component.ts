@@ -2,11 +2,12 @@ import { Component,ViewEncapsulation } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgFor } from '@angular/common';
 import { DropDownButtonAllModule } from '@syncfusion/ej2-angular-splitbuttons';
+import { NavbarComponent } from '../navbar/navbar.component';
 
 @Component({
   selector: 'app-departments',
   standalone: true,
-  imports: [NgFor,DropDownButtonAllModule],
+  imports: [NgFor,DropDownButtonAllModule,NavbarComponent],
   templateUrl: './departments.component.html',
   styleUrl: './departments.component.css'
 })

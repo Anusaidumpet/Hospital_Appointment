@@ -1,31 +1,12 @@
-<header>
-    <nav id="navbar">
-      <li id="name" aria-current="page" (click)="redirectTohome()" style="margin-left: 1rem;"> Virinchi</li>
-      <ul><li><a (click)="redirectTohome()">Home</a></li>
-        <li><a (click)="redirectTodepartment()">Departments</a></li>
-        <li><a>Hospital</a></li>
-        <li><a>Facility</a></li>
-        <li><a>Contact Us</a></li>
-        <!-- <li class="Label"><input type="search" id="SearchInput" placeholder="Search" />
-          <label for="SearchInput"></label>
-        </li> -->
-        <form class="d-flex mt-2">
-          <input class="form-control me-5" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-light" type="submit">Search</button>
-        </form>
-        <button class="appointment" (click)="redirectTologin()">Log in</button>
-      </ul>
-    </nav>
-  </header>
-  <br><br><br>
+<app-navbar></app-navbar>
   <!-- nav bar end -->
 <!--Section: Contact v.2-->
-<section class="mb-4">
+<section class="mt-5">
 
   <!--Section heading-->
   <h2 class="h1-responsive font-weight-bold text-center ">Contact us</h2>
   <!--Section description-->
-  <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+  <p class="text-center w-responsive mx-auto mb-4">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
       a matter of hours to help you.</p>
 
   <div class="row">
@@ -86,8 +67,8 @@
 
           </form>
 
-          <div class="text-center text-md-left">
-              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          <div class="text-center text-md-left ">
+              <a class="btn btn-primary " onclick="document.getElementById('contact-form').submit();">Send</a>
           </div>
           <div class="status"></div>
       </div>
